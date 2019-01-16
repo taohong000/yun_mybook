@@ -1,0 +1,5 @@
+<van-card wx:for="{{bookList}}" price="{{item.price}}" desc="{{item.author}}" title="{{item.title}}" thumb="{{ item.image }}" data-id="{{item._id}}" bind:tap="viewItem">
+  <view slot="tags">
+    <van-tag wx:for="{{item.tags}}" wx:if="{{idx<=2}}" wx:for-index="idx" wx:for-item="tag">{{tag.name}}</van-tag>
+  </view>
+</van-card>

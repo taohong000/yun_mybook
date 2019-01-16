@@ -1,0 +1,4 @@
+<!--pages/bookDetail/bookDetail.wxml-->
+<text>{{book.title}}</text>
+<van-button type="primary" bind:tap="update">更新数据</van-button>
+<van-button type="danger" bind:tap="delete">删除数据</van-button>

@@ -1,0 +1,55 @@
+{
+	"miniprogramRoot": "miniprogram/",
+	"cloudfunctionRoot": "cloudfunctions/",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"nodeModules": true
+	},
+	"appid": "wx2a923793aa138d39",
+	"projectname": "yun",
+	"libVersion": "2.2.5",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": 2,
+			"list": [
+				{
+					"id": -1,
+					"name": "db guide",
+					"pathName": "pages/databaseGuide/databaseGuide",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "扫码",
+					"pathName": "pages/scanCode/scanCode",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "bookDetail",
+					"pathName": "pages/bookDetail/bookDetail",
+					"query": "id=XDtq73ffS3SWsTVF"
+				}
+			]
+		}
+	}
+}
